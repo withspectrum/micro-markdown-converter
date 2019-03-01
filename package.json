@@ -2,7 +2,7 @@
   "name": "micro-markdown-converter",
   "private": true,
   "version": "1.0.0",
-  "description": "A tiny Node.js microservice to convert markdown to raw DraftJS content state and back",
+  "description": "A tiny Node.js microservice to convert markdown to and from raw DraftJS content state",
   "main": "index.js",
   "scripts": {
     "start": "micro",
