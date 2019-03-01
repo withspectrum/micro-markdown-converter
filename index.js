@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
     try {
       return stateToMarkdown(convertFromRaw(raw), {
         gfm: true
-      });
+      }).replace(/\n$/, '');
     } catch(err) {
       throw createError(400, 'Please provide valid, raw DraftJS content state to /to as the request body.')
     }
