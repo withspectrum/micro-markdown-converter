@@ -13,13 +13,13 @@ module.exports = async (req, res) => {
     try {
       return stateToMarkdown(convertFromRaw(raw), {
         gfm: true
-      }).replace(/\n$/, '');
+      }).trim();
     } catch(err) {
       throw createError(400, 'Please provide valid, raw DraftJS content state to /to as the request body.')
     }
   } else if (req.url === "/from") {
     const md = await text(req);
-    return convertToRaw(stateFromMarkdown(md), {
+    return convertToRaw(stateFromMarkdown(md.trim()), {
       parserOptions: {
         breaks: true
       }
