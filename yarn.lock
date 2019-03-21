@@ -913,10 +913,10 @@ dotenv@5.0.1:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-5.0.1.tgz#a5317459bd3d79ab88cff6e44057a6a3fbb1fcef"
   integrity sha512-4As8uPrjfwb7VXC+WnLCbXK7y+Ueb2B3zgNCePYfhxS1PYeaO1YTeplffTEcbfLhvFNGLAz90VvJs9yomG7bow==
 
-draft-js-export-markdown-fork-mxstbr@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/draft-js-export-markdown-fork-mxstbr/-/draft-js-export-markdown-fork-mxstbr-1.3.3.tgz#46c169698874d0fd660d3884d31444c56c42f6db"
-  integrity sha512-b304m61EpfdGZxlsVq0smFQ4Mpw5IdbLElCJYVkV7ESD79SkmIns+h1TGpnfFUGSRqVrDPPUBnaBmLR0nWYv3g==
+draft-js-export-markdown-fork-mxstbr@^1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/draft-js-export-markdown-fork-mxstbr/-/draft-js-export-markdown-fork-mxstbr-1.3.4.tgz#825eb9844753f46d98d74785e89967387d43bfdd"
+  integrity sha512-ekxzxwz0X9Huit1BOxLZNqZZA2BiT3lA4TYH3gQkO90eQUXe+bc90W70zzMY3D+QPaSJEQmt+F6GHczeNxi/+g==
   dependencies:
     draft-js-utils "^1.3.3"
 
