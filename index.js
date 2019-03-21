@@ -1,5 +1,5 @@
 const { convertToRaw, convertFromRaw } = require("draft-js");
-const { stateToMarkdown } = require("draft-js-export-markdown");
+const { stateToMarkdown } = require("draft-js-export-markdown-fork-mxstbr");
 const { stateFromMarkdown } = require("draft-js-import-markdown");
 const { createError, json, text } = require("micro");
 
